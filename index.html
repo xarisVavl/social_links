@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body {
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  font-size:14px;
+  font-weight: 400;
+}
+
+
+
+
+main {
+  background-color: hsl(0, 0%, 12%);
+  height :550px;
+  width:350px;
+  margin-bottom: 200px;
+  margin-top: 200px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 20px; */
+
+  
+}
+
+
+
+.avatar {
+  margin: 25px;
+
+}
+
+
+img {
+  border-radius: 50%;
+  width:80px;
+  height :80px;
+
+}
+
+
+.place {
+  color:hsl(75, 94%, 57%);
+  font-size: 12px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.description {
+  color: hsl(0, 0%, 100%);
+    font-size: 14px;
+}
+
+
+
+.name {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+
+.content{
+  background-color: hsl(0, 0%, 20%);
+  color : hsl(0, 0%, 100%);
+  padding:10px;
+  margin:7px;
+  border-radius: 8px;
+  width:250px;
+  text-align: center;
+}
+ .content:hover {
+  background-color:hsl(75, 94%, 57%);
+ }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+
+  <main>
+    <div class="avatar"> <img src="assets\images\avatar-jessica.jpeg" alt=""></div>
+
+    <div class="name">  Jessica Randall</div>
+
+   <div class="place">London, United Kingdom</div>  
+ <p class="description">"Front-end developer and avid reader."</p> 
+
+ <div class="content">GitHub</div> 
+  <div class="content">Frontend Mentor</div>
+<div class="content">LinkedIn</div>  
+  <div class="content">Twitter</div>
+ <div class="content">Instagram</div> 
+
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>
+</body>
+</html>
